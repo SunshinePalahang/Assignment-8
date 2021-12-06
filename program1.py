@@ -18,4 +18,9 @@ def lottery():
     while numbers in lottoNums:
         numbers = random.randint(0,9)
     lottoNums.append(numbers)
+#checker
+    if userNums == lottoNums:
+        print("Winner")
+    else:
+        print("You loss")
 lottery()
