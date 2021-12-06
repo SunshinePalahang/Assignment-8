@@ -5,3 +5,5 @@ userGuess= []
 
 while userGuess != guessNums:
     userGuess = int(input("Guess the number: "))
+    if userGuess > guessNums:
+        print("Greater than")
