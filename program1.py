@@ -17,4 +17,5 @@ def lottery():
 #no repition
     while numbers in lottoNums:
         numbers = random.randint(0,9)
+    lottoNums.append(numbers)
 lottery()
