@@ -23,4 +23,10 @@ def lottery():
         print("Winner")
     else:
         print("You loss")
+tryAgain = input("Try Again. Type 'y' if yes and 'n' if no.  ")
+if tryAgain == "y":
+    lottery
+else:
+    print("Thank you!")
+    exit
 lottery()
