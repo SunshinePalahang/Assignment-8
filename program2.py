@@ -9,3 +9,5 @@ while userGuess != guessNums:
         print("Greater than")
     elif userGuess < guessNums:
         print("Less then")
+    else:
+        print("You guess it right!")
